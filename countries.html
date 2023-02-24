@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries API</title>
+    <style>
+      .div_container {
+        border: 2px solid tomato;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+
+        text-align: center;
+      }
+      #countries_container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>All Countries</h1>
+    <section id="diplayOne"></section>
+    <section id="countries_container"></section>
+
+    <script src="./countries.js"></script>
+  </body>
+</html>
